@@ -1,0 +1,41 @@
+/* Here is the javascript code for simple todo list Web Application*/
+function addTask()
+{
+        var input = document.getElementById("new-task");
+        var taskText = input.value.trim();
+        if (taskText !== "") {
+            var taskList = document.getElementById("tasks");
+            var newTask = document.createElement("li");
+            newTask.innerHTML = `
+                <input type="checkbox">
+                <span>${taskText}</span>
+                <button class="remove-btn">x</button>
+            `;
+            newTask.classList.add("task");
+            taskList.appendChild(newTask);
+            input.value = "";
+        }
+    }
+
+   
+    document.getElementById("tasks").addEventListener("click", function(event) {
+        if (event.target.classList.contains("remove-btn")) {
+            event.target.parentNode.remove();
+        }
+    });
+
+   
+    document.getElementById("tasks").addEventListener("change", function(event) {
+        if (event.target.matches("input[type='checkbox']")) {
+            var taskSpan = event.target.nextElementSibling;
+            if (event.target.checked) {
+                taskSpan.style.textDecoration = "line-through";
+                taskSpan.style.color = "none";
+                taskSpan.parentNode.classList.add("completed");
+            } else {
+                taskSpan.style.textDecoration = "none";
+                taskSpan.style.color = "none";
+                taskSpan.parentNode.classList.remove("completed");
+            }
+        }
+    });
