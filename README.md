@@ -1,7 +1,7 @@
 # COD-TECH-Task1
 
 
-**Name**    : DHARSHINI . R
+**Name**    : DEEPAK . R
 
 **Company** : CODTECH IT SOLUTIONS
 
