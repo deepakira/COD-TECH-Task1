@@ -1,4 +1,4 @@
-# COD-TECH-Task1
+![thia](https://github.com/user-attachments/assets/c6faa4f1-1988-4a66-ba01-31925bfe95f9)# COD-TECH-Task1
 
 
 **Name**    : DEEPAK . R
@@ -41,8 +41,13 @@ Users can add and delete tasks as needed.
 - Add task editing functionality.
 - Store tasks in local storage to persit data across sessions.
 - Add task due dates and priority levels.
-- Implement a filter to show completed 
+- Implement a filter to show completed
+ 
 ## Here is the output of the todolist web application:
+
+![thia](https://github.com/user-attachments/assets/08c99d0b-1f2c-4853-a839-612b7c3c8a4d)
+
+
 
 
 
