@@ -1,4 +1,4 @@
-![thia](https://github.com/user-attachments/assets/c6faa4f1-1988-4a66-ba01-31925bfe95f9)# COD-TECH-Task1
+# COD-TECH-Task1
 
 
 **Name**    : DEEPAK . R
