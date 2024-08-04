@@ -45,7 +45,7 @@ Users can add and delete tasks as needed.
  
 ## Here is the output of the todolist web application:
 
-![thia]("C:\Users\waver\OneDrive\Pictures\Screenshots\Screenshot 2024-08-04 225006.png")
+![thia]("C:\Users\waver\OneDrive\Pictures\Screenshots\Screenshot")
 
 
 
